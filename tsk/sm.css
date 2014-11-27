@@ -31,11 +31,36 @@
     width: 90vw;
   }
 
-  .order {
-    display: block;
-    float: none;
-    margin: 0 auto;
-  }
+  
+.order {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  float: left;
+  width: auto;
+  height: auto;
+}
+.order a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.order a:hover {
+  cursor: pointer;
+}
+.order span {
+  box-sizing: border-box;
+  position: absolute;
+  display: none;
+  text-align: center;
+  background: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+  
+}
+
 
   #scroller {
     display: none;
