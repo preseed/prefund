@@ -781,7 +781,7 @@
 #contact h1 { color: black; font-weight: 300; font-size: 1.8em; text-transform: uppercase; letter-spacing: 3px; margin: 10px 0 20px; }
 #contact h1 div { display: inline-block; }
 #contact p { font-size: 1.5em; font-weight: 300; letter-spacing: 1px; margin: 30px auto 35px; max-width: 500px; }
-#contact a.contact { padding: 8px 15px; border: 1px solid lightgray; border-radius: 3px; font-size: 1.4em; font-weight: 300; letter-spacing: 1px; color: #6c6c6c; }
+#contact a.contact { padding: 8px 15px; border: 1px solid lightgray; border-radius: 3px; font-size: 1.4em; font-weight: 300; letter-spacing: 1px; color: #000; background-color: #0CF }
 #contact a.contact i { margin-left: 10px; font-size: 20px; }
 #contact a.contact:hover { color: lightgray; background: gray; border: 1px solid gray; }
 #contact .paperplane { color: #a6a6a6; font-size: 5em; }
